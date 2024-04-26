@@ -1,14 +1,18 @@
-import React from 'react'
+import React from 'react';
 
 function Hero() {
   return (
     <div className='text-white'>
-        <div className='max-w[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
-            <p>WELCOME TO CODESHAPER</p>
-            <h1>CONSULTING CONSULTING FOR EVERY BUSINESS</h1>
+      <div className='fixed left-0 top-0 w-full h-screen flex items-center justify-center'>
+        <div className="text-left max-w-4xl mx-auto px-6">
+          <p className="text-base lg:text-lg mb-4">WELCOME TO CODESHAPER</p>
+          <div className="text-4xl md:text-5xl lg:text-6xl font-bold">
+            CONSULTING <br /> FOR EVERY <br /> BUSINESS
+          </div>
         </div>
+      </div>
     </div>
-  )
+  );
 }
 
-export default Hero
+export default Hero;
