@@ -2,10 +2,11 @@ import './App.css';
 import Hero from './components/Hero';
 import Mission from './components/Mission';
 import Navbar from './components/Navbar';
+import Market from './components/Market';
 import Newcasestudies from './components/Newcasestudies';
-import Newsletter from './components/Newsletter';
 import QA from './components/QA';
 import Chat from './components/Chat';
+import Cs from './components/Cs';
 import Rwe from './components/Rwe';
 import Footer from './components/Footer';
 
@@ -15,11 +16,12 @@ function App() {
        <Navbar /> 
        <Hero />
        <Rwe />
-       <Newsletter />
+       <Market />
        <Newcasestudies />
        <Mission />
        <QA />
        <Chat />
+       <Cs />
        <Footer />
     </div>
   );

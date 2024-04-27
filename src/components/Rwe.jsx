@@ -3,7 +3,7 @@ import { FaArrowLeft, FaArrowRight, FaYCombinator } from "react-icons/fa";
 
 function Rwe() {
   return (
-    <div className='w-full bg-indigo-950 py-16 px-4'>
+    <div className=''>
       <div>
         <h1 className='text-center font-bold text-4xl text-white'>REAL WORLD EXPERIENCE</h1>
         <p className='text-center font-semibold text-gray-400'>The best business consulting firm you can count on!</p>

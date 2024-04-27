@@ -1,9 +1,4 @@
 import React from 'react'
-import {
-    FaDribbileSquare,
-    FaFacebookSquare,
-    FaInstagramSquare,
-} from 'react-icons/fa'
 
 function Footer() {
   return (
