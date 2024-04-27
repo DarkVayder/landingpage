@@ -14,21 +14,21 @@ function Newcasestudies() {
           <div className='text-center'>
             <img className='w-8 h-8 mx-auto mb-2' src={car} alt='' />
             <p className='text-lg md:text-xl font-bold mb-1'>THOUGHT LEADERSHIP</p>
-            <h1 className='text-3xl md:text-4xl font-bold'>BUSINESS GROWTH</h1>
+            <h1 className='text-3xl md:text-3xl font-bold text-gray-500'>BUSINESS GROWTH</h1>
           </div>
         </div>
         <div className='w-full h-[25rem] shadow-xl flex flex-col justify-center p-4 my-4 rounded-lg hover:scale-105 duration-300 bg-gray-200 relative'>
           <div className='text-center'>
             <img className='w-8 h-8 mx-auto mb-2' src={car} alt='' />
             <p className='text-lg md:text-xl font-bold mb-1'>THOUGHT LEADERSHIP</p>
-            <h1 className='text-3xl md:text-4xl font-bold'>BUSINESS GROWTH</h1>
+            <h1 className='text-3xl md:text-3xl font-bold text-gray-500'>BUSINESS GROWTH</h1>
           </div>
         </div>
         <div className='w-full h-[25rem] shadow-xl flex flex-col justify-center p-4 my-4 rounded-lg hover:scale-105 duration-300 bg-gray-200 relative'>
           <div className='text-center'>
             <img className='w-8 h-8 mx-auto mb-2' src={car} alt='' />
             <p className='text-lg md:text-xl font-bold mb-1'>THOUGHT LEADERSHIP</p>
-            <h1 className='text-3xl md:text-4xl font-bold'>BUSINESS GROWTH</h1>
+            <h1 className='text-3xl md:text-3xl font-bold text-gray-500'>BUSINESS GROWTH</h1>
           </div>
         </div>
       </div>

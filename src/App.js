@@ -5,7 +5,9 @@ import Navbar from './components/Navbar';
 import Newcasestudies from './components/Newcasestudies';
 import Newsletter from './components/Newsletter';
 import QA from './components/QA';
+import Chat from './components/Chat';
 import Rwe from './components/Rwe';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
        <Newcasestudies />
        <Mission />
        <QA />
+       <Chat />
+       <Footer />
     </div>
   );
 }
