@@ -7,6 +7,7 @@ import Newcasestudies from './components/Newcasestudies';
 import QA from './components/QA';
 import Chat from './components/Chat';
 import Cs from './components/Cs';
+import Rates from './components/Rates'
 import Rwe from './components/Rwe';
 import Footer from './components/Footer';
 
@@ -22,6 +23,7 @@ function App() {
        <QA />
        <Chat />
        <Cs />
+       <Rates />
        <Footer />
     </div>
   );
