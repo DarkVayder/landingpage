@@ -1,4 +1,8 @@
 import React from 'react'
+import { FaLocationDot } from "react-icons/fa6";
+import { IoMailOutline } from "react-icons/io5";
+import { FaPhone } from "react-icons/fa6";
+import { FaRegCopyright } from "react-icons/fa";
 
 function Footer() {
   return (

@@ -3,7 +3,7 @@ import car from '../asset/car.png';
 
 function Newcasestudies() {
   return (
-    <div className='w-full py-[3.5rem] px-4 bg-white'>
+    <div className='w-full py-[3.5rem] px-4 bg-slate-300'>
       <div className='text-center'>
         <h1 className='md:text-4xl sm:text-2xl text-xl font-bold mb-4'>NEW CASE STUDIES</h1>
         <p className='py-3rem pb-8'>We help our clients renew their business</p>

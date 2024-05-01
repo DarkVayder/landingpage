@@ -2,7 +2,7 @@ import './App.css';
 import Hero from './components/Hero';
 import Mission from './components/Mission';
 import Navbar from './components/Navbar';
-import Market from './components/Market';
+import Mkt from './components/Mkt';
 import Newcasestudies from './components/Newcasestudies';
 import QA from './components/QA';
 import Chat from './components/Chat';
@@ -17,7 +17,7 @@ function App() {
        <Navbar /> 
        <Hero />
        <Rwe />
-       <Market />
+       <Mkt />
        <Newcasestudies />
        <Mission />
        <QA />
