@@ -31,7 +31,7 @@ function Mkt() {
     <div>
       <FaPhone className='cursor-pointer text-blue-500 text-2xl' />
     </div>
-    <div style={{ marginLeft: '10px' }}> {/* Adjust margin as needed */}
+    <div style={{ marginLeft: '10px' }}>
       <h1 className='text-gray-400 mb-2'>Have any questions? Give us a call</h1>
       <p className='text-black'>+92 666 888 0000</p>
     </div>
