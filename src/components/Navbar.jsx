@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
-import { FaInstagram, FaLinkedin, FaFacebook, FaTwitter, FaWhatsapp } from 'react-icons/fa';
 import { CiSearch } from "react-icons/ci";
 
 function Navbar() {
@@ -25,26 +24,8 @@ function Navbar() {
       </div>
 
       <ul className={`flex items-center space-x-4 cursor-pointer ${nav ? 'hidden' : 'md:flex'}`}>
-        <li className="p-2">
-          <FaInstagram aria-label="Instagram" />
-        </li>
-        <li className="p-2">
-          <FaLinkedin aria-label="LinkedIn" />
-        </li>
-        <li className="p-2">
-          <FaTwitter aria-label="Twitter" />
-        </li>
-        <li className="p-2">
-          <FaFacebook aria-label="Facebook" />
-        </li>
-        <li className="p-2">
-          <FaWhatsapp aria-label="WhatsApp" />
-        </li>
-        <li className="p-2 hidden md:block">
+        <li className={`p-2 cursor-help ${nav ? 'hidden md:block' : 'hidden'}`}>
           <CiSearch aria-label="Search" />
-        </li>
-        <li className={`p-2 cursor-help hidden md:block ${nav ? 'hidden' : 'block'}`}>
-          Need help? <br/> +92 666 888 0000
         </li>
       </ul>
 
